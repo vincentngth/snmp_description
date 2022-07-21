@@ -1,0 +1,11 @@
+Name,Description
+Connection:100,VLAN100.Traffic-4G_H03007
+Connection:200,VLAN200.OAM-4G_H03007
+Connection:320,VLAN320.Traffic-2G_H03007
+Connection:330,VLAN330.Iub-3G_H03007
+Connection:370,VLAN370.OAM-2G_H03007
+Connection:380,VLAN380.OAM-3G_H03007
+Interface:1,TO_LSW-H03101_PO_Gi0/4_TY_Noitinh/FO/TPCOMS_NO_Lastmile
+Interface:13,TO_CSG-H03039_PO_Te0/0_TY_Noitinh/FO/TPCOMS
+Interface:14,TO_CSG-H03042_PO_Te0/0_TY_Noitinh/FO/VTTP
+Interface:2,TO_LSW-H03087_PO_Gi0/4_TY_Noitinh/FO/TPCOMS_NO_Lastmile
