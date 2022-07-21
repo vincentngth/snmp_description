@@ -1,0 +1,112 @@
+CBQoS class-default (matchAny) (Ethernet Virtual Connection: 100 input)[Class Map],class-default_VLAN100.Traffic-4G_H03007_input
+CBQoS class-default (matchAny) (Ethernet Virtual Connection: 200 input)[Class Map],class-default_VLAN200.OAM-4G_H03007_input
+CBQoS class-default (matchAny) (Ethernet Virtual Connection: 320 input)[Class Map],class-default_VLAN320.Traffic-2G_H03007_input
+CBQoS class-default (matchAny) (Ethernet Virtual Connection: 330 input)[Class Map],class-default_VLAN330.Iub-3G_H03007_input
+CBQoS class-default (matchAny) (Ethernet Virtual Connection: 370 input)[Class Map],class-default_VLAN370.OAM-2G_H03007_input
+CBQoS class-default (matchAny) (Ethernet Virtual Connection: 380 input)[Class Map],class-default_VLAN380.OAM-3G_H03007_input
+CBQoS class-default (matchAny) (Main Interface:1 input)[Class Map],class-default_TO_LSW-H03101_PO_Gi0/4_TY_input
+CBQoS class-default (matchAny) (Main Interface:1 output)[Class Map],class-default_TO_LSW-H03101_PO_Gi0/4_TY_output
+CBQoS class-default (matchAny) (Main Interface:13 input)[Class Map],class-default_TO_CSG-H03039_PO_Te0/0_TY_input
+CBQoS class-default (matchAny) (Main Interface:13 output)[Class Map],class-default_TO_CSG-H03039_PO_Te0/0_TY_output
+CBQoS class-default (matchAny) (Main Interface:14 input)[Class Map],class-default_TO_CSG-H03042_PO_Te0/0_TY_input
+CBQoS class-default (matchAny) (Main Interface:14 output)[Class Map],class-default_TO_CSG-H03042_PO_Te0/0_TY_output
+CBQoS class-default (matchAny) (Main Interface:2 input)[Class Map],class-default_TO_LSW-H03087_PO_Gi0/4_TY_input
+CBQoS class-default (matchAny) (Main Interface:2 output)[Class Map],class-default_TO_LSW-H03087_PO_Gi0/4_TY_output
+CBQoS INTERNET-LEASELINE-IN (matchAny) (Main Interface:1 input)[Class Map],INTERNET-LEASELINE-IN_TO_LSW-H03101_PO_Gi0/4_TY_input
+CBQoS INTERNET-LEASELINE-IN (matchAny) (Main Interface:13 input)[Class Map],INTERNET-LEASELINE-IN_TO_CSG-H03039_PO_Te0/0_TY_input
+CBQoS INTERNET-LEASELINE-IN (matchAny) (Main Interface:14 input)[Class Map],INTERNET-LEASELINE-IN_TO_CSG-H03042_PO_Te0/0_TY_input
+CBQoS INTERNET-LEASELINE-IN (matchAny) (Main Interface:2 input)[Class Map],INTERNET-LEASELINE-IN_TO_LSW-H03087_PO_Gi0/4_TY_input
+CBQoS INTERNET-LEASELINE-OUT (matchAny) (Main Interface:1 output)[Class Map],INTERNET-LEASELINE-OUT_TO_LSW-H03101_PO_Gi0/4_TY_output
+CBQoS INTERNET-LEASELINE-OUT (matchAny) (Main Interface:13 output)[Class Map],INTERNET-LEASELINE-OUT_TO_CSG-H03039_PO_Te0/0_TY_output
+CBQoS INTERNET-LEASELINE-OUT (matchAny) (Main Interface:14 output)[Class Map],INTERNET-LEASELINE-OUT_TO_CSG-H03042_PO_Te0/0_TY_output
+CBQoS INTERNET-LEASELINE-OUT (matchAny) (Main Interface:2 output)[Class Map],INTERNET-LEASELINE-OUT_TO_LSW-H03087_PO_Gi0/4_TY_output
+CBQoS IoT-CONTROL-IN (matchAny) (Main Interface:1 input)[Class Map],IoT-CONTROL-IN_TO_LSW-H03101_PO_Gi0/4_TY_input
+CBQoS IoT-CONTROL-IN (matchAny) (Main Interface:13 input)[Class Map],IoT-CONTROL-IN_TO_CSG-H03039_PO_Te0/0_TY_input
+CBQoS IoT-CONTROL-IN (matchAny) (Main Interface:14 input)[Class Map],IoT-CONTROL-IN_TO_CSG-H03042_PO_Te0/0_TY_input
+CBQoS IoT-CONTROL-IN (matchAny) (Main Interface:2 input)[Class Map],IoT-CONTROL-IN_TO_LSW-H03087_PO_Gi0/4_TY_input
+CBQoS IoT-CONTROL-OUT (matchAny) (Main Interface:1 output)[Class Map],IoT-CONTROL-OUT_TO_LSW-H03101_PO_Gi0/4_TY_output
+CBQoS IoT-CONTROL-OUT (matchAny) (Main Interface:13 output)[Class Map],IoT-CONTROL-OUT_TO_CSG-H03039_PO_Te0/0_TY_output
+CBQoS IoT-CONTROL-OUT (matchAny) (Main Interface:14 output)[Class Map],IoT-CONTROL-OUT_TO_CSG-H03042_PO_Te0/0_TY_output
+CBQoS IoT-CONTROL-OUT (matchAny) (Main Interface:2 output)[Class Map],IoT-CONTROL-OUT_TO_LSW-H03087_PO_Gi0/4_TY_output
+CBQoS MOBILE-DATA-IN (matchAny) (Main Interface:1 input)[Class Map],MOBILE-DATA-IN_TO_LSW-H03101_PO_Gi0/4_TY_input
+CBQoS MOBILE-DATA-IN (matchAny) (Main Interface:13 input)[Class Map],MOBILE-DATA-IN_TO_CSG-H03039_PO_Te0/0_TY_input
+CBQoS MOBILE-DATA-IN (matchAny) (Main Interface:14 input)[Class Map],MOBILE-DATA-IN_TO_CSG-H03042_PO_Te0/0_TY_input
+CBQoS MOBILE-DATA-IN (matchAny) (Main Interface:2 input)[Class Map],MOBILE-DATA-IN_TO_LSW-H03087_PO_Gi0/4_TY_input
+CBQoS MOBILE-DATA-OUT (matchAny) (Main Interface:1 output)[Class Map],MOBILE-DATA-OUT_TO_LSW-H03101_PO_Gi0/4_TY_output
+CBQoS MOBILE-DATA-OUT (matchAny) (Main Interface:13 output)[Class Map],MOBILE-DATA-OUT_TO_CSG-H03039_PO_Te0/0_TY_output
+CBQoS MOBILE-DATA-OUT (matchAny) (Main Interface:14 output)[Class Map],MOBILE-DATA-OUT_TO_CSG-H03042_PO_Te0/0_TY_output
+CBQoS MOBILE-DATA-OUT (matchAny) (Main Interface:2 output)[Class Map],MOBILE-DATA-OUT_TO_LSW-H03087_PO_Gi0/4_TY_output
+CBQoS NETWORK-CONTROL-IN (matchAny) (Main Interface:1 input)[Class Map],NETWORK-CONTROL-IN_TO_LSW-H03101_PO_Gi0/4_TY_input
+CBQoS NETWORK-CONTROL-IN (matchAny) (Main Interface:13 input)[Class Map],NETWORK-CONTROL-IN_TO_CSG-H03039_PO_Te0/0_TY_input
+CBQoS NETWORK-CONTROL-IN (matchAny) (Main Interface:14 input)[Class Map],NETWORK-CONTROL-IN_TO_CSG-H03042_PO_Te0/0_TY_input
+CBQoS NETWORK-CONTROL-IN (matchAny) (Main Interface:2 input)[Class Map],NETWORK-CONTROL-IN_TO_LSW-H03087_PO_Gi0/4_TY_input
+CBQoS NETWORK-CONTROL-OUT (matchAny) (Main Interface:1 output)[Class Map],NETWORK-CONTROL-OUT_TO_LSW-H03101_PO_Gi0/4_TY_output
+CBQoS NETWORK-CONTROL-OUT (matchAny) (Main Interface:13 output)[Class Map],NETWORK-CONTROL-OUT_TO_CSG-H03039_PO_Te0/0_TY_output
+CBQoS NETWORK-CONTROL-OUT (matchAny) (Main Interface:14 output)[Class Map],NETWORK-CONTROL-OUT_TO_CSG-H03042_PO_Te0/0_TY_output
+CBQoS NETWORK-CONTROL-OUT (matchAny) (Main Interface:2 output)[Class Map],NETWORK-CONTROL-OUT_TO_LSW-H03087_PO_Gi0/4_TY_output
+CBQoS REALTIME-IN (matchAny) (Main Interface:1 input)[Class Map],REALTIME-IN_TO_LSW-H03101_PO_Gi0/4_TY_input
+CBQoS REALTIME-IN (matchAny) (Main Interface:13 input)[Class Map],REALTIME-IN_TO_CSG-H03039_PO_Te0/0_TY_input
+CBQoS REALTIME-IN (matchAny) (Main Interface:14 input)[Class Map],REALTIME-IN_TO_CSG-H03042_PO_Te0/0_TY_input
+CBQoS REALTIME-IN (matchAny) (Main Interface:2 input)[Class Map],REALTIME-IN_TO_LSW-H03087_PO_Gi0/4_TY_input
+CBQoS REALTIME-OUT (matchAny) (Main Interface:1 output)[Class Map],REALTIME-OUT_TO_LSW-H03101_PO_Gi0/4_TY_output
+CBQoS REALTIME-OUT (matchAny) (Main Interface:13 output)[Class Map],REALTIME-OUT_TO_CSG-H03039_PO_Te0/0_TY_output
+CBQoS REALTIME-OUT (matchAny) (Main Interface:14 output)[Class Map],REALTIME-OUT_TO_CSG-H03042_PO_Te0/0_TY_output
+CBQoS REALTIME-OUT (matchAny) (Main Interface:2 output)[Class Map],REALTIME-OUT_TO_LSW-H03087_PO_Gi0/4_TY_output
+CBQoS UNI-INTERNET-LEASELINE (matchAny) (Ethernet Virtual Connection: 100 input)[Class Map],UNI-INTERNET-LEASELINE_VLAN100.Traffic-4G_H03007_input
+CBQoS UNI-INTERNET-LEASELINE (matchAny) (Ethernet Virtual Connection: 200 input)[Class Map],UNI-INTERNET-LEASELINE_VLAN200.OAM-4G_H03007_input
+CBQoS UNI-INTERNET-LEASELINE (matchAny) (Ethernet Virtual Connection: 320 input)[Class Map],UNI-INTERNET-LEASELINE_VLAN320.Traffic-2G_H03007_input
+CBQoS UNI-INTERNET-LEASELINE (matchAny) (Ethernet Virtual Connection: 330 input)[Class Map],UNI-INTERNET-LEASELINE_VLAN330.Iub-3G_H03007_input
+CBQoS UNI-INTERNET-LEASELINE (matchAny) (Ethernet Virtual Connection: 370 input)[Class Map],UNI-INTERNET-LEASELINE_VLAN370.OAM-2G_H03007_input
+CBQoS UNI-INTERNET-LEASELINE (matchAny) (Ethernet Virtual Connection: 380 input)[Class Map],UNI-INTERNET-LEASELINE_VLAN380.OAM-3G_H03007_input
+CBQoS UNI-IoT-CONTROL (matchAny) (Ethernet Virtual Connection: 100 input)[Class Map],UNI-IoT-CONTROL_VLAN100.Traffic-4G_H03007_input
+CBQoS UNI-IoT-CONTROL (matchAny) (Ethernet Virtual Connection: 200 input)[Class Map],UNI-IoT-CONTROL_VLAN200.OAM-4G_H03007_input
+CBQoS UNI-IoT-CONTROL (matchAny) (Ethernet Virtual Connection: 320 input)[Class Map],UNI-IoT-CONTROL_VLAN320.Traffic-2G_H03007_input
+CBQoS UNI-IoT-CONTROL (matchAny) (Ethernet Virtual Connection: 330 input)[Class Map],UNI-IoT-CONTROL_VLAN330.Iub-3G_H03007_input
+CBQoS UNI-IoT-CONTROL (matchAny) (Ethernet Virtual Connection: 370 input)[Class Map],UNI-IoT-CONTROL_VLAN370.OAM-2G_H03007_input
+CBQoS UNI-IoT-CONTROL (matchAny) (Ethernet Virtual Connection: 380 input)[Class Map],UNI-IoT-CONTROL_VLAN380.OAM-3G_H03007_input
+CBQoS UNI-MOBILE-DATA (matchAny) (Ethernet Virtual Connection: 100 input)[Class Map],UNI-MOBILE-DATA_VLAN100.Traffic-4G_H03007_input
+CBQoS UNI-MOBILE-DATA (matchAny) (Ethernet Virtual Connection: 200 input)[Class Map],UNI-MOBILE-DATA_VLAN200.OAM-4G_H03007_input
+CBQoS UNI-MOBILE-DATA (matchAny) (Ethernet Virtual Connection: 320 input)[Class Map],UNI-MOBILE-DATA_VLAN320.Traffic-2G_H03007_input
+CBQoS UNI-MOBILE-DATA (matchAny) (Ethernet Virtual Connection: 330 input)[Class Map],UNI-MOBILE-DATA_VLAN330.Iub-3G_H03007_input
+CBQoS UNI-MOBILE-DATA (matchAny) (Ethernet Virtual Connection: 370 input)[Class Map],UNI-MOBILE-DATA_VLAN370.OAM-2G_H03007_input
+CBQoS UNI-MOBILE-DATA (matchAny) (Ethernet Virtual Connection: 380 input)[Class Map],UNI-MOBILE-DATA_VLAN380.OAM-3G_H03007_input
+CBQoS UNI-NETWORK-CONTROL (matchAny) (Ethernet Virtual Connection: 100 input)[Class Map],UNI-NETWORK-CONTROL_VLAN100.Traffic-4G_H03007_input
+CBQoS UNI-NETWORK-CONTROL (matchAny) (Ethernet Virtual Connection: 200 input)[Class Map],UNI-NETWORK-CONTROL_VLAN200.OAM-4G_H03007_input
+CBQoS UNI-NETWORK-CONTROL (matchAny) (Ethernet Virtual Connection: 320 input)[Class Map],UNI-NETWORK-CONTROL_VLAN320.Traffic-2G_H03007_input
+CBQoS UNI-NETWORK-CONTROL (matchAny) (Ethernet Virtual Connection: 330 input)[Class Map],UNI-NETWORK-CONTROL_VLAN330.Iub-3G_H03007_input
+CBQoS UNI-NETWORK-CONTROL (matchAny) (Ethernet Virtual Connection: 370 input)[Class Map],UNI-NETWORK-CONTROL_VLAN370.OAM-2G_H03007_input
+CBQoS UNI-NETWORK-CONTROL (matchAny) (Ethernet Virtual Connection: 380 input)[Class Map],UNI-NETWORK-CONTROL_VLAN380.OAM-3G_H03007_input
+CBQoS UNI-REALTIME (matchAny) (Ethernet Virtual Connection: 100 input)[Class Map],UNI-REALTIME_VLAN100.Traffic-4G_H03007_input
+CBQoS UNI-REALTIME (matchAny) (Ethernet Virtual Connection: 200 input)[Class Map],UNI-REALTIME_VLAN200.OAM-4G_H03007_input
+CBQoS UNI-REALTIME (matchAny) (Ethernet Virtual Connection: 320 input)[Class Map],UNI-REALTIME_VLAN320.Traffic-2G_H03007_input
+CBQoS UNI-REALTIME (matchAny) (Ethernet Virtual Connection: 330 input)[Class Map],UNI-REALTIME_VLAN330.Iub-3G_H03007_input
+CBQoS UNI-REALTIME (matchAny) (Ethernet Virtual Connection: 370 input)[Class Map],UNI-REALTIME_VLAN370.OAM-2G_H03007_input
+CBQoS UNI-REALTIME (matchAny) (Ethernet Virtual Connection: 380 input)[Class Map],UNI-REALTIME_VLAN380.OAM-3G_H03007_input
+CBQoS UNI-VIDEO-OAM (matchAny) (Ethernet Virtual Connection: 100 input)[Class Map],UNI-VIDEO-OAM_VLAN100.Traffic-4G_H03007_input
+CBQoS UNI-VIDEO-OAM (matchAny) (Ethernet Virtual Connection: 200 input)[Class Map],UNI-VIDEO-OAM_VLAN200.OAM-4G_H03007_input
+CBQoS UNI-VIDEO-OAM (matchAny) (Ethernet Virtual Connection: 320 input)[Class Map],UNI-VIDEO-OAM_VLAN320.Traffic-2G_H03007_input
+CBQoS UNI-VIDEO-OAM (matchAny) (Ethernet Virtual Connection: 330 input)[Class Map],UNI-VIDEO-OAM_VLAN330.Iub-3G_H03007_input
+CBQoS UNI-VIDEO-OAM (matchAny) (Ethernet Virtual Connection: 370 input)[Class Map],UNI-VIDEO-OAM_VLAN370.OAM-2G_H03007_input
+CBQoS UNI-VIDEO-OAM (matchAny) (Ethernet Virtual Connection: 380 input)[Class Map],UNI-VIDEO-OAM_VLAN380.OAM-3G_H03007_input
+CBQoS UNI-VPN-SERVICE (matchAny) (Ethernet Virtual Connection: 100 input)[Class Map],UNI-VPN-SERVICE_VLAN100.Traffic-4G_H03007_input
+CBQoS UNI-VPN-SERVICE (matchAny) (Ethernet Virtual Connection: 200 input)[Class Map],UNI-VPN-SERVICE_VLAN200.OAM-4G_H03007_input
+CBQoS UNI-VPN-SERVICE (matchAny) (Ethernet Virtual Connection: 320 input)[Class Map],UNI-VPN-SERVICE_VLAN320.Traffic-2G_H03007_input
+CBQoS UNI-VPN-SERVICE (matchAny) (Ethernet Virtual Connection: 330 input)[Class Map],UNI-VPN-SERVICE_VLAN330.Iub-3G_H03007_input
+CBQoS UNI-VPN-SERVICE (matchAny) (Ethernet Virtual Connection: 370 input)[Class Map],UNI-VPN-SERVICE_VLAN370.OAM-2G_H03007_input
+CBQoS UNI-VPN-SERVICE (matchAny) (Ethernet Virtual Connection: 380 input)[Class Map],UNI-VPN-SERVICE_VLAN380.OAM-3G_H03007_input
+CBQoS VIDEO-OAM-IN (matchAny) (Main Interface:1 input)[Class Map],VIDEO-OAM-IN_TO_LSW-H03101_PO_Gi0/4_TY_input
+CBQoS VIDEO-OAM-IN (matchAny) (Main Interface:13 input)[Class Map],VIDEO-OAM-IN_TO_CSG-H03039_PO_Te0/0_TY_input
+CBQoS VIDEO-OAM-IN (matchAny) (Main Interface:14 input)[Class Map],VIDEO-OAM-IN_TO_CSG-H03042_PO_Te0/0_TY_input
+CBQoS VIDEO-OAM-IN (matchAny) (Main Interface:2 input)[Class Map],VIDEO-OAM-IN_TO_LSW-H03087_PO_Gi0/4_TY_input
+CBQoS VIDEO-OAM-OUT (matchAny) (Main Interface:1 output)[Class Map],VIDEO-OAM-OUT_TO_LSW-H03101_PO_Gi0/4_TY_output
+CBQoS VIDEO-OAM-OUT (matchAny) (Main Interface:13 output)[Class Map],VIDEO-OAM-OUT_TO_CSG-H03039_PO_Te0/0_TY_output
+CBQoS VIDEO-OAM-OUT (matchAny) (Main Interface:14 output)[Class Map],VIDEO-OAM-OUT_TO_CSG-H03042_PO_Te0/0_TY_output
+CBQoS VIDEO-OAM-OUT (matchAny) (Main Interface:2 output)[Class Map],VIDEO-OAM-OUT_TO_LSW-H03087_PO_Gi0/4_TY_output
+CBQoS VPN-SERVICE-IN (matchAny) (Main Interface:1 input)[Class Map],VPN-SERVICE-IN_TO_LSW-H03101_PO_Gi0/4_TY_input
+CBQoS VPN-SERVICE-IN (matchAny) (Main Interface:13 input)[Class Map],VPN-SERVICE-IN_TO_CSG-H03039_PO_Te0/0_TY_input
+CBQoS VPN-SERVICE-IN (matchAny) (Main Interface:14 input)[Class Map],VPN-SERVICE-IN_TO_CSG-H03042_PO_Te0/0_TY_input
+CBQoS VPN-SERVICE-IN (matchAny) (Main Interface:2 input)[Class Map],VPN-SERVICE-IN_TO_LSW-H03087_PO_Gi0/4_TY_input
+CBQoS VPN-SERVICE-OUT (matchAny) (Main Interface:1 output)[Class Map],VPN-SERVICE-OUT_TO_LSW-H03101_PO_Gi0/4_TY_output
+CBQoS VPN-SERVICE-OUT (matchAny) (Main Interface:13 output)[Class Map],VPN-SERVICE-OUT_TO_CSG-H03039_PO_Te0/0_TY_output
+CBQoS VPN-SERVICE-OUT (matchAny) (Main Interface:14 output)[Class Map],VPN-SERVICE-OUT_TO_CSG-H03042_PO_Te0/0_TY_output
+CBQoS VPN-SERVICE-OUT (matchAny) (Main Interface:2 output)[Class Map],VPN-SERVICE-OUT_TO_LSW-H03087_PO_Gi0/4_TY_output
